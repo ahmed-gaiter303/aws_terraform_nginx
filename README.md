@@ -1,30 +1,15 @@
 # Deploy Nginx on AWS using Terraform
 
-## 🚀 Overview
-Infrastructure as Code (IaC) project to deploy an Nginx server on AWS EC2 using Terraform.
+## Overview
+This project provisions a simple AWS infrastructure (VPC, Subnet, Security Group, EC2) and installs **Nginx** automatically on the EC2 instance using Terraform.
 
-## 🧠 Skills Demonstrated
-- AWS provisioning
-- Infrastructure as Code (Terraform)
-- Cloud automation
+## Prerequisites
+- AWS account (Free Tier works)
+- Terraform installed locally (`terraform -v`)
+- Configured AWS credentials (`aws configure`)
 
-## 🔧 Tech Stack
-- Terraform
-- AWS EC2
-- Bash
+## Steps
 
-## 📁 Structure
-```
-.
-├── main.tf
-└── outputs.tf
-```
-
-## 🛠 Usage
+1️⃣ **Initialize Terraform**
 ```bash
 terraform init
-terraform apply
-```
-
-## 🎯 Value
-This project shows the ability to provision cloud resources automatically, a critical skill for modern DevOps roles.
